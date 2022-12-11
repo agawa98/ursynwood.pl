@@ -1,0 +1,54 @@
+body{
+    height: 100vh;
+    background: linear-gradient(0deg, rgba(40, 170, 109, 0.589), rgba(59, 144, 201, 0.582));
+}
+
+tr,td{
+    border: 2px solid black;
+}
+td{
+    padding: 1.15vw;
+    height: 3vh;
+    background-color: rgba(52, 207, 52, 0.514);
+}
+table{
+    border-collapse: collapse;
+}
+
+
+.totalScore{
+    min-width: 8vw;
+    max-width: 13vw;
+}
+input[type=number]{
+    width: 10vw;
+}
+input[type=text]{
+    width: 15vw;
+}
+
+#scoreTable{
+    max-width: 78vw;
+    float:left;
+    
+}
+#scoreTableDiv{
+    overflow-x: scroll;
+    width:78vw;
+    margin:0;
+    float:left;
+}
+#addScoreTable{
+    width: 10vw;
+    float:right;
+}
+#tabela{
+    overflow: hidden;
+    margin-bottom: 2vh;
+    background-color: rgba(52, 207, 52, 0.288);
+    border:3px groove green;
+}
+#newRound{
+    float:right;
+}
+
